@@ -1,4 +1,5 @@
 import textwrap
+
 def wrap(string, max_width):
     text=''
     chars = ''
@@ -10,7 +11,7 @@ def wrap(string, max_width):
             chars=''
             continue
     return text
-    return text
+   
 string, max_width = input(), int(input())
 result = wrap(string, max_width)
 print(result)
